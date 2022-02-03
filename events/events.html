@@ -1,0 +1,95 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Events</title>
+        <link rel="icon"href="/logodark.svg">
+        <link rel="stylesheet"href="/stylesheet.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container-2">
+            <div class="navbar">
+            <a href="index.html"target="blank"><img src="/logodark.svg"class="logo"></a>
+                <nav>
+                    <ul id="menulist">
+                        <b><li><a href="index.html"target="blank">Hello there</a></li>
+                        <li><a href="levelup.html"target="blank">Level up with DAG</a></li>
+                        <li><a href="us.html"target="blank">Get to know us</a></li></b>
+                    </ul>
+                </nav>
+                <img src="/expand.svg"class="menu-icon"onclick="togglemenu()">
+            </div>
+        </div>
+        <script>
+            var menulist=document.getElementById("menulist");
+            menulist.style.maxHeight="0px";
+            function togglemenu()
+            {
+                if(menulist.style.maxHeight=="0px")
+                {
+                    menulist.style.maxHeight="130px";
+                }
+                else
+                {
+                    menulist.style.maxHeight="0px";
+                }
+            }
+        </script>
+
+        <div style="background-color: #000000; padding: 25px;">
+            <p style='text-align: center;font-size: 35px;'><b>We always push ourselves to the maximum to bring to you<br>
+                the finest content from both the worlds of gaming and animation.<br>
+                Check what we’ve been doing all this time!<br><br></b></p>
+            <h3 style='text-align: center;'>What's up next?</h3><br>
+            <div class="grid-container"> 
+
+                <div class="grid-item">
+                  <img src="Dexterity/Dexterity.jpg"height="270px"width="216px">
+                  <h2>Dexterity Season 2<br></h2>
+                    <p>Coming Soon...<br></p>
+                  <a href="Dexterity/dexterity.html"target="blank"><button type="button"class="rbutton">
+                      <b style="color:#000000">What else?</b></button></a>
+                </div> 
+
+            </div>
+
+            <h3 style='text-align: center;'>What did you miss?</h3><br>
+            <div class="grid-container"> 
+
+                <div class="grid-item">
+                  <img src="R-Day/R-Day.jpg"height="270px"width="216px">
+                  <h2>R-Day<br></h2>
+                   <p>From 19th January 2022<br>
+                        To 22nd January 2022<br></p>
+                  <a href="R-Day/rday.html"target="blank"><button type="button"class="rbutton"><b style="color:#00000c">Register</b></button></a>
+                </div> 
+                
+                <div class="grid-item">
+                    <img src="Posteria/Posteria.jpg"height="270px"width="216px">
+                    <h2>Posteria<br></h2>
+                    <p>From 24th November 2021<br>
+                        To 14th December 2021<br></p>
+                    <a href="Posteria/posteria.html"target="blank"><button type="button"class="rbutton"><b style="color:#00000c">Register</b></button></a>
+                </div> 
+
+                <div class="grid-item">
+                    <img src="Animetrix/Animetrix.jpg"height="270px"width="216px">
+                    <h2>Animetrix<br></h2>
+                    <p>30th October 2021<br>
+                        Mr.Jay Hemrajani<br></p>
+                    <a href="Animetrix/animetrix.html"target="blank"><button type="button"class="rbutton"><b style="color:#00000c">Register</b></button></a>
+                </div> 
+            </div>
+        </div>
+
+        <div class="socials"style="background-color:#000000;">
+            <p style='font-size: 25px; color: white; text-align: center;'>Know what we're upto</p>
+            <a href="mailto:drushya.club@vitap.ac.in" target="blank"><img src="/gmail.svg"width="35"height="35"></a>
+            <a href="https://www.instagram.com/dag_drushya/" target="blank"><img src="/instagram.svg"width="35"height="35"></a>
+            <a href="https://www.linkedin.com/company/drushya-animation-and-gaming-club" target="blank"><img src="/linkedin.svg"width="35"height="35"></a>
+            <a href="https://discord.gg/NzFb7mAuMq" target="blank"><img src="/discord.svg"width="35"height="35"></a>
+        </div>
+    </body>
+</html>

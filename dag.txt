@@ -1,0 +1,2 @@
+posters: height 270px width 216px
+posts: width 270px height 480px 

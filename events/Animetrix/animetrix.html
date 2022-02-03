@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Animetrix</title>
+        <link rel="icon"href="/logodark.svg">
+        <link rel="stylesheet"href="/stylesheet.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="navbar">
+                <a href="/index.html"target="blank"><img src="/logodark.svg"class="logo"></a>
+                <nav>
+                    <ul id="menulist">
+                        <b><li><a href="events/events.html"target="blank">What's on our mind</a></li>
+                        <li><a href="levelup/levelup.html"target="blank">Level up with DAG</a></li>
+                        <li><a href="us/us.html"target="blank">Get to know us</a></li></b>
+                    </ul>
+                </nav>
+                <img src="/expand.svg"class="menu-icon"onclick="togglemenu()">
+            </div>
+        
+            <div class="row">
+                <div class="coleve1">
+                    <h1>Animetrix<br>Animation Worksop<br>Speaker: Mr.Jay Hemrajani</h1></br>
+                    <a href="/noreg.html"target="blank"><button class="rbutton"><b style="color:#00000c">Register</b></button></a>
+                </div>
+
+                <div class="coleve2">
+                    <img src="Animetrix.jpg"class="poster">
+                </div>
+            </div>
+        </div>
+        <script>
+            var menulist=document.getElementById("menulist");
+            menulist.style.maxHeight="0px";
+            function togglemenu()
+            {
+                if(menulist.style.maxHeight=="0px")
+                {
+                    menulist.style.maxHeight="130px";
+                }
+                else
+                {
+                    menulist.style.maxHeight="0px";
+                }
+            }
+        </script>
+
+        <div style="background-color: #000000;padding: 50px;">
+            <h1 style="text-align: center;"><b>Apologies, the event is done.</b></h1>
+            <p style="text-align: center;">A hands-on workshop on <br>
+                scribble animation and glow effect conducted by Mr. Jay Hemrajani, <br>
+                who is a freelance animator and visual effects<br>
+                artist from Mumbai who’s been associated with various brands <br>
+                like Red Bull, American Express and KPMG.<br>
+            </p>
+            
+        </div>
+        <div class="socials"style="background-color:#000000;">
+            <p style='font-size: 25px; color: white; text-align: center;'>Know what we're upto</p>
+            <a href="mailto:drushya.club@vitap.ac.in" target="blank"><img src="/gmail.svg"width="35"height="35"></a>
+            <a href="https://www.instagram.com/dag_drushya/" target="blank"><img src="/instagram.svg"width="35"height="35"></a>
+            <a href="https://www.linkedin.com/company/drushya-animation-and-gaming-club" target="blank"><img src="/linkedin.svg"width="35"height="35"></a>
+            <a href="https://discord.gg/NzFb7mAuMq" target="blank"><img src="/discord.svg"width="35"height="35"></a>
+        </div>
+    </body>
+</html>
