@@ -188,7 +188,6 @@ button{
         padding-left: 8%;
         padding-right: 8%;
         box-sizing: border-box;
-        overflow: hidden;
         background-color: #000000;
     }
     .container{
@@ -197,7 +196,6 @@ button{
         padding-left: 8%;
         padding-right: 8%;
         box-sizing: border-box;
-        overflow: hidden;
         background-color: #000000;
     }
     .container-2{
@@ -206,7 +204,6 @@ button{
         padding-left: 8%;
         padding-right: 8%;
         box-sizing: border-box;
-        overflow: hidden;
         background-color: #000000;
     }
     nav ul{
