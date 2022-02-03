@@ -243,6 +243,11 @@ button{
         margin-bottom: 50px;
         align-items: center;
     }
+   .coleve2 .poster{
+    width: 400px;
+    height: 500px;
+    transform: translateX(10px);
+    }
     .grid-container {
         display: grid;
         grid-template-columns: auto;
